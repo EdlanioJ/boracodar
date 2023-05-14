@@ -21,9 +21,9 @@ export default async function Home() {
 
   return (
     <main
-      className={`min-h-screen p-7 pb-16 bg-zinc-950 ${roboto.className} font-custom contact-scrollbar`}
+      className={`${roboto.className} min-h-screen p-7 pb-16 bg-zinc-950 font-custom`}
     >
-      <div className="grid max-w-4xl gap-7 lg:grid-cols-3 md:grid-cols-2 mx-auto contact-scrollbar">
+      <div className="grid max-w-4xl gap-7 lg:grid-cols-3 md:grid-cols-2 mx-auto">
         <UserCard />
         {challenges
           .sort((a, b) => (a.number > b.number ? -1 : 0))
