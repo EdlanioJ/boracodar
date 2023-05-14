@@ -8,6 +8,10 @@ export const metadata = {
   description:
     'Bem-vindos ao #boraCodar, um convite em forma de desafio para você apostar na sua evolução em programação.',
   keywords: ['bora codar', 'boracodar', '#boraCodar'],
+  authors: [
+    { name: 'Edlâneo Manuel', url: 'https://linkedin.com/in/Edlanioj' },
+  ],
+  creator: 'Edlâneo Manuel',
 };
 
 export default function RootLayout({
