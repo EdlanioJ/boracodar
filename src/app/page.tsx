@@ -3,21 +3,11 @@ import UserCard from '@src/components/UserCard';
 import { ChallengeType } from '../type';
 import ChallengeCard from '@src/components/ChallengeCard';
 import Link from 'next/link';
+import { challenges } from './data';
 
 const roboto = Roboto({ subsets: ['latin'], weight: ['100', '400', '700'] });
 
-async function getData(): Promise<{ challenges: ChallengeType[] }> {
-  const res = await fetch('http://localhost:3000/api/challenges', {
-    cache: 'no-cache',
-  });
-  if (!res.ok) {
-    throw new Error('Failed to fetch challenges');
-  }
-
-  return res.json();
-}
-export default async function Home() {
-  const { challenges } = await getData();
+export default function Home() {
 
   return (
     <main
