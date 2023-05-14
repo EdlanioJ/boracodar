@@ -4,6 +4,7 @@ export const metadata = {
   title: {
     default: '#boraCodar | Edlâneo Manuel',
     template: '%s | Edlâneo Manuel',
+    absolute: '#boraCodar | Edlâneo Manuel',
   },
   description:
     'Bem-vindos ao #boraCodar, um convite em forma de desafio para você apostar na sua evolução em programação.',
