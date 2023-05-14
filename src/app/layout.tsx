@@ -1,9 +1,13 @@
 import './globals.css';
 
 export const metadata = {
-  title: '#boraCodar com Edlâneo Manuel',
+  title: {
+    default: '#boraCodar | Edlâneo Manuel',
+    template: '%s | Edlâneo Manuel',
+  },
   description:
     'Bem-vindos ao #boraCodar, um convite em forma de desafio para você apostar na sua evolução em programação.',
+  keywords: ['bora codar', 'boracodar', '#boraCodar'],
 };
 
 export default function RootLayout({

@@ -8,6 +8,9 @@ export const metadata = {
   title: '#boraCodar 18 - Card de personagem',
   description:
     'Esse é o Desafio #18, #boraCodar um card de personagem de Stars Wars em homenagem ao May the 4th',
+  openGraph: {
+    images: ['/images/18.png'],
+  },
 };
 
 export default function Page() {
