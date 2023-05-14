@@ -11,7 +11,8 @@ const font = Titillium_Web({
 
 export const metadata = {
   title: '#boraCodar 15 - Pricing Table',
-  description: 'Esse é o Desafio #15, #boraCodar uma tabela de Pricing',
+  description:
+    'Essa é a resolução do desafio #15, #boraCodar uma tabela de Pricing',
   openGraph: {
     images: [
       { url: '/images/15.png', alt: 'Desafio 15', width: 1920, height: 1348 },

@@ -9,7 +9,7 @@ const font = Lato({
 
 export const metadata = {
   title: '#boraCodar 17 - Date picker',
-  description: 'Esse é o Desafio #17, #boraCodar um Date Picker',
+  description: 'Essa é a resolução do desafio #17, #boraCodar um Date Picker',
   openGraph: {
     images: [
       { url: '/images/17.png', alt: 'Desafio 17', width: 1920, height: 1348 },

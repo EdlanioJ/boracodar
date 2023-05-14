@@ -7,7 +7,8 @@ const custom = Inter({ subsets: ['latin'], weight: ['400', '500', '700'] });
 
 export const metadata = {
   title: '#boraCodar 14 - Componente de Upload',
-  description: 'Esse é o Desafio #14, #boraCodar um componente de upload',
+  description:
+    'Essa é a resolução do desafio #14, #boraCodar um componente de upload',
   openGraph: {
     images: [
       { url: '/images/14.png', alt: 'Desafio 14', width: 1920, height: 1348 },
