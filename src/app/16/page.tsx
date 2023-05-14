@@ -11,6 +11,11 @@ const font = Roboto({
 export const metadata = {
   title: '#boraCodar 16 - Pagina de contatos',
   description: 'Esse é o Desafio #16, #boraCodar uma página de contatos',
+  openGraph: {
+    images: [
+      { url: '/images/16.png', alt: 'Desafio 16', width: 1920, height: 1348 },
+    ],
+  },
 };
 
 export default function Page() {
