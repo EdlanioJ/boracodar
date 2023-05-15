@@ -13,6 +13,10 @@ const nextConfig = {
         hostname: 'media.licdn.com',
         protocol: 'https',
       },
+      {
+        hostname: 'randomuser.me',
+        protocol: 'https',
+      },
     ],
   },
 };
