@@ -7,8 +7,10 @@ import { challenges } from './data';
 
 const roboto = Roboto({ subsets: ['latin'], weight: ['100', '400', '700'] });
 
+export const metadata = {
+  title: '#boraCodar',
+};
 export default function Home() {
-
   return (
     <main
       className={`${roboto.className} min-h-screen p-7 pb-16 bg-zinc-950 font-custom`}

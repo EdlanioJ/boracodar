@@ -4,10 +4,8 @@ export const metadata = {
   title: {
     default: '#boraCodar | Edlâneo Manuel',
     template: '%s | Edlâneo Manuel',
-    absolute: '#boraCodar | Edlâneo Manuel',
   },
-  description:
-    'Bem-vindos ao #boraCodar, um convite em forma de desafio para você apostar na sua evolução em programação.',
+  description: 'Bem-vindos a minhas resoluções para os desafios do #boraCodar',
   keywords: ['bora codar', 'boracodar', '#boraCodar'],
   authors: [
     { name: 'Edlâneo Manuel', url: 'https://linkedin.com/in/Edlanioj' },
@@ -21,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="pt-ao">
+    <html lang="pt-BR">
       <body>{children}</body>
     </html>
   );
