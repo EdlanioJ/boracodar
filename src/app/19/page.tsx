@@ -1,4 +1,11 @@
+import HomeLink from '@src/components/HomeLink';
 import Widget from './components/Widget';
+import { Inter } from 'next/font/google';
+
+const font = Inter({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+});
 
 export const metadata = {
   title: '#boraCodar 19 - widget de transporte',
@@ -14,9 +21,13 @@ export const metadata = {
 export default function Page() {
   return (
     <main
-      className={` min-h-screen bg-[#E7E1EA] font-custom grid place-content-center`}
+      className={`${font.className} relative min-h-screen bg-[#E7E1EA] font-custom grid place-content-center`}
     >
       <Widget />
+
+      <div className="absolute bottom-6 right-6">
+        <HomeLink />
+      </div>
     </main>
   );
 }

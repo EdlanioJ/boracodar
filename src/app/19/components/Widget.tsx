@@ -6,12 +6,12 @@ import Image from 'next/image';
 export default function Widget() {
   return (
     <div className="flex flex-col shadow-2xl items-center justify-between w-[795px] h-[689px] rounded-[40px] bg-white text-[#372D3D] px-14 py-6">
-      <div className="w-[168px] h-[17px] bg-[#E5D8EA] cursor-pointer rounded-full" />
+      <div className="w-[168px] h-[17px] bg-[#E5D8EA] cursor-grab  rounded-full" />
       <div className="w-full">
-        <h1 className="font-bold text-[36px]  leading-[48px]">
+        <h4 className="font-bold text-[38px]  leading-[48px]">
           Encontre <span className="text-[#864293]">Boris</span> no local de
           partida
-        </h1>
+        </h4>
         <p className="font-medium leading-[30px] text-[24px]">
           Chega em 3 minutos (800 metros)
         </p>
@@ -19,7 +19,7 @@ export default function Widget() {
 
       <div className="w-full flex items-center justify-between">
         <div className="flex items-center">
-          <div className="flex flex-col gap-[6px] items-center z-10 relative">
+          <div className="flex flex-col gap-[6px] items-center z-10 transition-all animate-apear">
             <div className="relative">
               <Image
                 alt="Imagem de Boris"
@@ -28,7 +28,7 @@ export default function Widget() {
                 width={137}
                 height={137}
               />
-              <div className="flex w-fit items-center px-[20px] py-[4px] justify-center gap-[18px] rounded-full bg-[#372D3B] text-[#FBF8FC] text-[20px] leading-[24px] font-semibold absolute bottom-0 left-1/2 -translate-x-1/2">
+              <div className="flex w-fit items-center px-[24px] py-[4px] justify-center gap-[18px] rounded-full bg-[#372D3B] text-[#FBF8FC] text-[20px] leading-[24px] font-semibold absolute bottom-0 left-1/2 -translate-x-1/2">
                 <Star weight="fill" />
                 <span>4.5</span>
               </div>
@@ -46,7 +46,7 @@ export default function Widget() {
           />
         </div>
         <div>
-          <h1 className="text-[38px] leading-[50px] font-bold">BCD0D19</h1>
+          <h4 className="text-[38px] leading-[50px] font-bold">BCD0D19</h4>
           <span className="font-medium text-[24px] leading-[30px]">
             Honda Civic Roxo
           </span>
@@ -61,11 +61,11 @@ export default function Widget() {
           id="msg"
         />
 
-        <div className="h-[64px] px-[8px] text-[48px] grid place-content-center rounded-[24px] hover:bg-[#F5EDF7] transition-all">
+        <div className="h-[64px] px-[8px] text-[48px] grid place-content-center rounded-[24px] hover:bg-[#F5EDF7] transition-all cursor-pointer">
           <Phone weight="fill" />
         </div>
 
-        <div className="h-[64px]  px-[8px] text-[48px] grid place-content-center  rounded-[24px] hover:bg-[#F5EDF7] transition-all">
+        <div className="h-[64px]  px-[8px] text-[48px] grid place-content-center rounded-[24px] hover:bg-[#F5EDF7] transition-all cursor-pointer">
           <ShieldPlus weight="fill" />
         </div>
       </div>
