@@ -24,7 +24,7 @@ export default function UserCard() {
         <div className="flex flex-col gap-4">
           <h2 className="text-gray-200 text-2xl font-bold flex flex-col">
             <span>
-              Seja bem-vindo a minha resolução dos desafios do{' '}
+              Minhas resoluções para os desafios do{' '}
               <Link
                 href={'https://boracodar.dev'}
                 target="_blank"
@@ -34,6 +34,12 @@ export default function UserCard() {
               </Link>
             </span>
           </h2>
+
+          <p className="text-gray-200 text-sm">
+            Estou entusiasmado em utilizar o React com Tailwind para enfrentar
+            os desafios do #borCodar. Essa combinação poderosa de tecnologias me
+            permitirá criar soluções inovadoras e eficientes.
+          </p>
         </div>
         <div className="flex gap-2">
           <Link href={'https://linkedin.com/in/EdlanioJ'} target="_blank">
