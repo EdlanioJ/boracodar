@@ -14,6 +14,7 @@ export default function UserCard() {
             className="object-cover"
             src={'https://github.com/EdlanioJ.png'}
             fill
+            sizes="(max-width: 14rem), (max-height: 14rem)"
           />
         </div>
       </div>

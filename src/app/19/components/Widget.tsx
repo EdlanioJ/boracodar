@@ -38,11 +38,12 @@ export default function Widget() {
             </span>
           </div>
           <Image
-            className="-translate-x-8"
+            className="-translate-x-8 w-auto h-auto"
             alt="Imagem de Carro"
             src={'/images/19/car.png'}
             width={286}
             height={111}
+            priority
           />
         </div>
         <div>
