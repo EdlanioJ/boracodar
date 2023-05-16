@@ -52,7 +52,7 @@ function Content({
     <div
       className={clsx(
         'relative w-full h-full [transform-style:preserve-3d] transition-all duration-500',
-        '[box-shadow:0px_294px_118px_rgba(0,0,0,0.03),0px_165px_99px_rgba(0,0,0,0.1),0px_73px_73px_rgba(0,0,0,0.17)0px_18px_40px_rgba(0,0,0,0.2),0px_0px_0px_rgba(0,0,0,0.2)]',
+        'shadow-character',
         {
           'group-hover:delay-1000 group-hover:[transform:rotateY(180deg)]':
             animateOnHover,
@@ -84,7 +84,7 @@ function Back({ backgroundImage, children, inverted }: BackProps) {
       <div
         className={clsx(
           'w-full h-full grid place-content-center',
-          '[background:linear-gradient(0deg,rgba(0,1,14,0.5),rgba(0,1,14,0.5)),linear-gradient(148.95deg,rgba(14,23,101,0.85)-7.05%,rgba(42,17,92,0.85)110.07%)]'
+          'bg-gradient-character'
         )}
       >
         {children}
