@@ -25,8 +25,8 @@ export default function Page() {
     <main
       className={`${font.className} relative h-screen overflow-hidden bg-gray-50 font-custom`}
     >
-      <div className="overflow-y-scroll h-screen">
-        <div className="grid gap-6 p-6">
+      <div className="overflow-y-scroll h-screen lg:flex lg:items-center lg:justify-center">
+        <div className="grid lg:w-fit gap-6 p-6 md:grid-cols-1 lg:grid-cols-3">
           <EssentialCard />
           <UltimateCard />
           <EnterpriseCard />

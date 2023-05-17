@@ -22,16 +22,16 @@ function Card({
         initialAnimationDelay && ({ '--delay': initialAnimationDelay } as any)
       }
       className={clsx(
-        'w-[420px] m-auto',
+        'w-[420px] lg:h-full m-auto',
         'animate-apear ',
         'hover:scale-105 transition-all duration-300',
         label &&
-          `before:content-[attr(aria-label)] before:font-bold before:text-xs before:uppercase before:text-gray-950 before:inline-block before:bg-orange-500 before:px-4 before:py-2 before:rounded-md before:absolute before:left-1/2 before:-translate-x-1/2 before:-top-4 mt-4 relative`
+          `before:content-[attr(aria-label)] before:font-bold before:text-xs before:uppercase before:text-gray-950 before:inline-block before:bg-orange-500 before:px-4 before:py-2 before:rounded-md before:absolute before:left-1/2 before:-translate-x-1/2 before:-top-4 lg:mt-0 mt-4 relative`
       )}
     >
       <div
         className={clsx(
-          'p-6 border border-solid rounded-lg',
+          'p-6 border border-solid rounded-lg h-full',
           'hover:border-purple-500 transition-colors duration-300',
           {
             'bg-white border-x-gray-200': variant === 'primary',
