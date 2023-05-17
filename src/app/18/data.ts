@@ -19,8 +19,8 @@ export const characters: {
       bgImage: '/images/18/bg.png',
       image: {
         url: '/images/18/finn.png',
-        width: 193,
-        height: 458,
+        width: 293,
+        height: 558,
       },
     },
   },
@@ -44,8 +44,8 @@ export const characters: {
       species: 'Humano',
       image: {
         url: '/images/18/rey.png',
-        width: 327,
-        height: 458,
+        width: 427,
+        height: 558,
       },
     },
   },
@@ -63,8 +63,8 @@ export const characters: {
       species: 'Droid',
       image: {
         url: '/images/18/bb8.png',
-        width: 275,
-        height: 494,
+        width: 375,
+        height: 594,
       },
     },
   },

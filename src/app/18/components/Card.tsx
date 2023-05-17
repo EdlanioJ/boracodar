@@ -177,7 +177,7 @@ function CharacterImage({ className, alt, src, ...rest }: ImageProps) {
     <Image
       alt={alt}
       src={src}
-      className={clsx('absolute bottom-0 right-0', className)}
+      className={clsx('absolute bottom-0 right-0 w-auto h-auto', className)}
       {...rest}
     />
   );
