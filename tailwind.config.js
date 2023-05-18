@@ -10,6 +10,8 @@ module.exports = {
       backgroundImage: {
         'gradient-character':
           'linear-gradient(0deg, rgba(0, 1, 14, 0.5), rgba(0, 1, 14, 0.5)), linear-gradient(148.95deg, rgba(14, 23, 101, 0.85) -7.05%, rgba(42, 17, 92, 0.85) 110.07%)',
+        'abstract-card':
+          'linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.75) 100%)',
       },
       boxShadow: {
         character:
@@ -17,7 +19,15 @@ module.exports = {
       },
       fontFamily: {
         inter: ['Inter'],
-        custom: ['Inter', 'Titillium_Web', 'Roboto', 'Lato', 'Source_Sans_Pro'],
+        custom: [
+          'Inter',
+          'Titillium_Web',
+          'Roboto',
+          'Lato',
+          'Source_Sans_Pro',
+          'Hepta_Slab',
+        ],
+        hepta: ['Hepta_Slab'],
       },
       keyframes: {
         apear: {
