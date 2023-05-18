@@ -19,7 +19,7 @@ module.exports = {
       },
       fontFamily: {
         inter: ['Inter'],
-        roboto: ['Roboto'],
+        roboto: ['Roboto', 'ui-sans-serif', 'system-ui', '-apple-system'],
         lato: ['Lato'],
         'titillium-web': ['Titillium_Web'],
         'source-sans': ['Source_Sans_Pro'],

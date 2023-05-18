@@ -9,7 +9,7 @@ type Props = {
 
 export default function ChallengeCard({ data }: Props) {
   return (
-    <div className="max-w-sm h-full flex flex-col bg-zinc-800 rounded-md overflow-hidden shadow-md shadow-zinc-950 hover:scale-105 duration-300 hover:shadow-[#633BBC] hover:shadow-2xl transition-all cursor-pointer">
+    <div className="font-roboto max-w-sm h-full flex flex-col bg-zinc-800 rounded-md overflow-hidden shadow-md shadow-zinc-950 hover:scale-105 duration-300 hover:shadow-[#633BBC] hover:shadow-2xl transition-all cursor-pointer">
       <Image
         alt="Cover"
         className="w-full h-auto"

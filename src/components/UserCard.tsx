@@ -6,7 +6,7 @@ import Tag from './Tag';
 
 export default function UserCard() {
   return (
-    <div className="flex md:col-span-2 lg:col-span-3 rounded-md overflow-hidden gap-4 bg-zinc-800 items-center">
+    <div className="font-roboto flex md:col-span-2 lg:col-span-3 rounded-md overflow-hidden gap-4 bg-zinc-800 items-center">
       <div className="  pl-5 pt-5 pb-5">
         <div className="relative h-56 w-56 rounded-lg overflow-hidden">
           <Image
