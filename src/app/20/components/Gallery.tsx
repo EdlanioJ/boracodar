@@ -31,9 +31,10 @@ function Group({ children, variant = 'row' }: GroupProps) {
 
 type FrameProps = {
   children: React.ReactNode;
+  label: string;
   variant?: 'full' | 'vertical' | 'horizontal';
 };
-function Frame({ children, variant = 'horizontal' }: FrameProps) {
+function Frame({ children, label, variant = 'horizontal' }: FrameProps) {
   return (
     <div className="group">
       <div
@@ -48,7 +49,7 @@ function Frame({ children, variant = 'horizontal' }: FrameProps) {
       >
         {children}
         <div className="absolute flex opacity-0 group-hover:opacity-100 transition-all items-center h-[78px] w-full bottom-0 bg-abstract-card p-[24px]">
-          <span className="text-[24px] leading-[30px]">Abstract Name</span>
+          <span className="text-[24px] leading-[30px]">{label}</span>
         </div>
       </div>
     </div>

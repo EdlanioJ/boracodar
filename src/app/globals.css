@@ -14,4 +14,16 @@
   .contact-scrollbar::-webkit-scrollbar-thumb {
     @apply bg-gray-700 rounded-full;
   }
+
+  .gallery-scrollbar::-webkit-scrollbar {
+    @apply w-2 h-1;
+  }
+
+  .gallery-scrollbar::-webkit-scrollbar-track {
+    @apply bg-zinc-600;
+  }
+
+  .gallery-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-zinc-50;
+  }
 }
