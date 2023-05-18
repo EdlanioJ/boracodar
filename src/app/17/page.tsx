@@ -20,7 +20,7 @@ export const metadata = {
 export default function Page() {
   return (
     <main
-      className={`${font.className} relative min-h-screen bg-gray-50 font-custom grid place-content-center`}
+      className={`${font.className} relative min-h-screen bg-gray-50 font-lato grid place-content-center`}
     >
       <DatePicker />
       <div className="absolute bottom-6 right-6">

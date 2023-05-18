@@ -48,4 +48,13 @@ export const challenges: ChallengeType[] = [
     from: '11/05/23',
     to: '17/05/23',
   },
+
+  {
+    number: '20',
+    name: '#boraCodar uma galeria com hover',
+    description:
+      'Resolução do desafio #20 do #boraCodar, uma galeria com hover',
+    from: '18/05/23',
+    to: '24/05/23',
+  },
 ];

@@ -22,7 +22,7 @@ export const metadata = {
 export default function Page() {
   return (
     <main
-      className={`${font.className} min-h-screen relative bg-zinc-800 font-custom grid place-content-center`}
+      className={`${font.className} min-h-screen relative bg-zinc-800 font-roboto grid place-content-center`}
     >
       <div className="w-[560px] rounded-lg bg-gray-900 flex flex-col overflow-hidden shadow-2xl">
         <Header />

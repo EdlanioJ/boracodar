@@ -23,7 +23,7 @@ export const metadata = {
 export default function Page() {
   return (
     <main
-      className={`${font.className} relative h-screen overflow-hidden bg-gray-50 font-custom`}
+      className={`${font.className} relative h-screen overflow-hidden bg-gray-50 font-titillium-web`}
     >
       <div className="overflow-y-scroll h-screen lg:flex lg:items-center lg:justify-center">
         <div className="grid lg:w-fit gap-6 p-6 md:grid-cols-1 lg:grid-cols-3">

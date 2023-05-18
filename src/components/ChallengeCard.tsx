@@ -32,7 +32,7 @@ export default function ChallengeCard({ data }: Props) {
             {data.to}
           </div>
         </div>
-        <div className="mt-6 mb-8 flex flex-col gap-2">
+        <div className="mt-6 flex flex-col gap-2">
           <h1 className="font-bold text-xl">{data.name}</h1>
 
           <p>{data.description}</p>

@@ -21,7 +21,7 @@ export const metadata = {
 export default function Page() {
   return (
     <main
-      className={`${font.className} relative min-h-screen bg-[#E7E1EA] font-custom grid place-content-center`}
+      className={`${font.className} relative min-h-screen bg-[#E7E1EA] font-inter grid place-content-center`}
     >
       <Widget />
 

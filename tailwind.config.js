@@ -19,15 +19,11 @@ module.exports = {
       },
       fontFamily: {
         inter: ['Inter'],
-        custom: [
-          'Inter',
-          'Titillium_Web',
-          'Roboto',
-          'Lato',
-          'Source_Sans_Pro',
-          'Hepta_Slab',
-        ],
-        hepta: ['Hepta_Slab'],
+        'titillium-web': ['Titillium_Web'],
+        roboto: ['Roboto'],
+        lato: ['Lato'],
+        'source-sans': ['Source_Sans_Pro'],
+        'hepta-slab': ['Hepta_Slab'],
       },
       keyframes: {
         apear: {

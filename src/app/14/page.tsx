@@ -19,7 +19,7 @@ export const metadata = {
 export default function Page() {
   return (
     <main
-      className={`${custom.className} font-custom leading-[130%] bg-gray-50 min-h-screen relative grid place-content-center`}
+      className={`${custom.className} font-inter leading-[130%] bg-gray-50 min-h-screen relative grid place-content-center`}
     >
       <DragZone />
       <FilesPreview />

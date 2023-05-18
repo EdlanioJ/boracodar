@@ -18,7 +18,7 @@ export const metadata = {
 export default function Page() {
   return (
     <main
-      className={`${font.className} relative min-h-screen bg-gray-950 font-custom grid place-content-center`}
+      className={`${font.className} relative min-h-screen bg-gray-950 font-source-sans grid place-content-center`}
     >
       <CharacterCards />
 
