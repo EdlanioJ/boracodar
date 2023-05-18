@@ -19,9 +19,9 @@ module.exports = {
       },
       fontFamily: {
         inter: ['Inter'],
-        'titillium-web': ['Titillium_Web'],
         roboto: ['Roboto'],
         lato: ['Lato'],
+        'titillium-web': ['Titillium_Web'],
         'source-sans': ['Source_Sans_Pro'],
         'hepta-slab': ['Hepta_Slab'],
       },

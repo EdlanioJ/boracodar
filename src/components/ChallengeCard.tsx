@@ -21,7 +21,7 @@ export default function ChallengeCard({ data }: Props) {
       <div className="text-gray-300  p-6 pt-4">
         <div className="flex text-xs text-gray-400 items-center gap-1">
           <strong>Desafio #{data.number}:</strong>
-          <div className="font-thin flex items-center gap-1">
+          <div className="flex items-center gap-1">
             {data.from}{' '}
             <Image
               alt="arrow"
